@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="xhsc_adl_repo" fetch="https://git3.fsoft.com.vn/GROUP/xhsc_fpt"/>
-  <remote name="automation_tools" fetch="https://git3.fsoft.com.vn/GROUP/internal_tools_release"/>
-  <remote name="test_auto_framework" fetch="https://git3.fsoft.com.vn/fsoft"/>
-  <default revision="develop" remote="xhsc_adl_repo" sync-j="4"/>
-  <project name="base" remote="auto_mcal_repo" revision="refs/tags/BLN_BASE_058" path="SASW/JSW_MCAL/XPC56xx/dev/drivers/AutoSAR/base"/>
-  <project name="test_can" remote="auto_mcal_repo" revision="refs/tags/BLN_TEST_CAN_SMCAL_4.0_S32K14X_1.0.5_01" path="SASW/JSW_MCAL/XPC56xx/dev/test/test_can"/>
+  <remote name="origin" fetch="https://github.com/VANTHO15"/>
+  <default revision="main" remote="origin" sync-j="4"/>
+  <project name="FW_FULL" remote="origin" revision="refs/tags/BLN_001" path="ThoNV/Code"/>
 </manifest>
