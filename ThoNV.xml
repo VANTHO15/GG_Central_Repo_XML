@@ -2,5 +2,5 @@
 <manifest>
   <remote name="origin" fetch="https://github.com/VANTHO15"/>
   <default revision="main" remote="origin" sync-j="4"/>
-  <project name="FW_FULL" remote="origin" revision="refs/tags/BLN_001" path="ThoNV/Code"/>
+  <project name="Test" remote="origin" revision="refs/tags/BLN_001" path="ThoNV/Code"/>
 </manifest>
